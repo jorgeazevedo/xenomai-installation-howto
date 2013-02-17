@@ -17,6 +17,9 @@ bibtex:
 spellcheck:
 	aspell -t check $(TEXFILES)
 
+show:
+	xdg-open $(TARGET)
+
 clean:
 	rm -f *.log *.aux *.bbl *.blg
 
