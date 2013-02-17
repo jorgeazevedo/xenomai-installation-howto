@@ -1,7 +1,7 @@
 TEXFILES=xenomai-howto.tex
 TARGET=xenomai-howto.pdf
 
-.PHONY : spellcheck
+.PHONY : spellcheck show
 
 all: $(TARGET)
 
